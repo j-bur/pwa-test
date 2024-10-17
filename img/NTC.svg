@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="151.692" height="76.304" viewBox="0 0 151.692 76.304">
+  <defs>
+    <filter id="NTC" x="0" y="0" width="110.802" height="76.304" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.851"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#NTC)">
+    <path id="NTC-2" data-name="NTC" d="M64.347,85H74.969V19.2H65.757V58.586L55.135,19.2H42.163V85h9.306V37.342Zm14.1-56.4h10.81V85H99.6V28.6h10.81V19.2H78.447Zm55.742,31.866v9.4c0,4.7-2.068,6.392-5.358,6.392s-5.358-1.692-5.358-6.392V34.334c0-4.7,2.068-6.486,5.358-6.486s5.358,1.786,5.358,6.486v7.05h9.776V34.992c0-10.528-5.264-16.544-15.416-16.544s-15.416,6.016-15.416,16.544V69.208c0,10.528,5.264,16.544,15.416,16.544s15.416-6.016,15.416-16.544V60.466Z" transform="translate(-38.66 -15.95)" fill="#fff"/>
+  </g>
+</svg>
