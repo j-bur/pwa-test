@@ -4,8 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="refresh" content="0; url=/pwa-test/" />
   <script>
-    var path = window.location.pathname.replace('/pwa-test', '');
-    window.location.replace("/pwa-test/#" + path);
+    var path = window.location.pathname;
+
+    if (!path.startsWith('/pwa-test')) {
+      window.location.replace("/pwa-test" + path);
+    } else {
+      window.location.replace("/pwa-test");
+    }
   </script>
 </head>
 <body>
